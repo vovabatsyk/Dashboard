@@ -1,12 +1,11 @@
 $(function() {
 
     $('form input[type=submit]').click(function(e) {
-        e.preventDefault();
         const form = $('form')[0];
         if (!form.checkValidity()) {
-            $('#message-box').html('Sorry, the form is not valid')
             return;
         }
+        e.preventDefault();
         $.ajax({
             url: "https://formspree.io/vovabatsyk@gmail.com",
             method: "POST",
