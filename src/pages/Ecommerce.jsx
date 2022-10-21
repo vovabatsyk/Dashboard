@@ -24,10 +24,12 @@ const Ecommerce = () => {
         rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center'>
 					<div className='flex justify-between items-center'>
 						<div>
-							<p className='text-gray-400 font-bold'>
+							<p className='text-yellow-400 font-bold'>
 								Earnings
 							</p>
-							<p className='text-3xl'>$43,434.23</p>
+							<p className='text-yellow-600 font-bold text-3xl'>
+								$43,434.23
+							</p>
 						</div>
 					</div>
 					<div className='mt-6'>
