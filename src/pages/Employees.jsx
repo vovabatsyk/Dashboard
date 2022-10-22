@@ -6,7 +6,7 @@ import {
 	Search,
 	Page,
 	Inject,
-  Toolbar
+	Toolbar,
 } from '@syncfusion/ej2-react-grids'
 
 import { employeesData, employeesGrid } from '../data/dummy'
@@ -19,6 +19,7 @@ const Employees = () => {
 			<GridComponent
 				dataSource={employeesData}
 				toolbar={['Search']}
+				allowPaging
 				width='auto'>
 				<ColumnsDirective>
 					{employeesGrid.map((item, i) => (
